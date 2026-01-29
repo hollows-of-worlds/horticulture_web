@@ -1,7 +1,5 @@
-#text-size120{
+.text-style{
     font-size: 120%;
-}
-#text-font{
     font-family: sans-serif;
 }
 
@@ -16,7 +14,7 @@
     color: #0d5000;
     border-radius: 5px;
 }
-
+.text-dev
 /* .subTitleDiv{
     width: 100%;
     height: 100%;
