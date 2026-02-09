@@ -12,12 +12,13 @@
     }
     .mainDiv{
         display: flex;
-        flex-direction: row;
-        width: 100%;
+        flex-direction: column;
+        width: 85%;
         height: 100%;
         background-color: rgb(248, 241, 181);
         color: #0d5000;
-        border-radius: 5px; 
+        border-radius: 5px;
+        margin: auto; 
         margin-top: 1%;
     }
     .images{
@@ -25,24 +26,28 @@
         border-radius: 10px;
     }
     #subDiv1{
-        margin: 2%;
         padding: 1%;
         background-color: #0d5122;
         color: rgb(186, 189, 0);
-        width: 50%;
+        width: 95%;
         border-radius: 5px;
         height: 100%;
+        margin: auto;
+        margin-bottom: 1%;
+        margin-top: 1%;
+
     }
 
     #subDiv2{
-        margin: 2%;
+        margin-top: 1%;
         padding: 1%;
         background-color: #0d5122;
         color: rgb(186, 189, 0);
-        width: 50%;
+        width: 95%;
         border-radius: 5px;
         height: 100%;
-
+        margin: auto;
+        margin-bottom: 1%;
     }
 
     /* #nextArrowDiv{
@@ -79,11 +84,12 @@
 }
     
 .projectsDiv{
-    width: 100%;
+    width: 85%;
     height: 100%;
     background-color: rgb(248, 241, 181);
     color: rgb(13, 80, 0);
     border-radius: 5px;
+    margin:auto;
 }
 
 #projectsP1{
@@ -100,15 +106,16 @@
 <body class="projectsBody">
     <div class="linkBar">
         <Header class="navbar">
-                    <nav class="navbar-text">
-                    <img src="assets/taconiclogotest.png" alt="Taconic logo" width="5%">
-                    <a href="index.html">Home,</a>
-                    <a href="projects.html">Student Projects,</a>
-                    <a href="storepage.html">Store,</a>
-                    <a href="ffa.html">FFA,</a>
-                    <a href="aboutteachers.html">About the Teachers</a>
+                <nav class="navbar-text">
+                        <img src="assets/taconiclogotest.png" alt="Taconic logo" width="2%">
+                        <a href="index.html">Home</a>
+                        <a href="projects.html">Student Projects</a>
+                        <a href="storepage.html">Store</a>
+                        <a href="ffa.html">FFA</a>
+                        <a href="aboutteachers.html">About the Teachers</a>
+                        <img src="assets/placeholder.jpg" alt="cart" width="3.5%" class="cart">
                 </nav>
-        </Header>
+    </Header>
 
         
 
@@ -136,6 +143,6 @@
 
     </div>
 
-    
+<script src="script.js"></script>
 </body>
 </html>
