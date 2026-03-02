@@ -6,7 +6,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<style>
+#main_cart_container p{
+    margin: 0;
+}
+#main_cart_container{
+    width: 85%;
+    height: 100%;
+    background-color: rgb(248, 241, 181);
+    color: #0d5000;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1%;
+}
+#cart_title{
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 1%;
+} 
+#cart_pg1{
+    padding: 1%;
+    font-family: sans-serif;
+}
+
+</style>
+<body class="mainBody">
     <Header class="navbar">
                 <nav class="navbar-text">
                         <img src="assets/taconiclogotest.png" alt="Taconic logo" width="2%">
@@ -18,6 +46,12 @@
                         <img src="assets/placeholder.jpg" alt="cart" width="3.5%" id="cart">
                 </nav>
     </Header>
+    <div class="titleDiv">
+        <p id="cart_title">Cart</p>
+    </div>
+    <div id="main_cart_container">
+        <p id="cart_pg1">h</p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
