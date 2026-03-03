@@ -4,7 +4,8 @@
 }
 
 .mainBody{
-    background-color: rgb(58, 131, 58);
+    /* background-color: rgb(58, 131, 58); */
+    background-image: linear-gradient();
 }
 .titleDiv
 {
