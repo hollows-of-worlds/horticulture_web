@@ -4,9 +4,9 @@
 }
 
 .mainBody{
-    /* background-color: rgb(58, 131, 58); */
-    background: #2a9b53;
-    background: linear-gradient(77deg, rgba(42, 155, 83, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(91, 237, 83, 1) 100%);
+    background-color: rgb(58, 131, 58);
+    /* background: #2a9b53;
+    background: linear-gradient(77deg, rgba(42, 155, 83, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(91, 237, 83, 1) 100%); */
 }
 .titleDiv
 {

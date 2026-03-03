@@ -10,30 +10,30 @@ cartlink.addEventListener("click", () => {
     window.location.href = destinationURL;
 })
 
-addtocart1 = document.getElementById("add_test1")
+addtocart1 = document.getElementById("day_lily")
 
 addtocart1.addEventListener("click", () => {
-    cartObj.push("test1")})
+    cartObj.push("Day lily")})
 
-addtocart2 = document.getElementById("add_test2")
+addtocart2 = document.getElementById("trellis_flower_white")
 
 addtocart2.addEventListener("click", () => {
-    cartObj.push("test2")})
+    cartObj.push("White trellis flower")})
 
-addtocart3 = document.getElementById("add_test3")
+addtocart3 = document.getElementById("sunflower")
 
 addtocart3.addEventListener("click", () => {
-    cartObj.push("test3")})
+    cartObj.push("Sunflower")})
 
-addtocart4 = document.getElementById("add_test4")
+addtocart4 = document.getElementById("assortment_red_white")
 
 addtocart4.addEventListener("click", () => {
-    cartObj.push("test4")})
+    cartObj.push("Red and white flower assortment")})
 
-addtocart5 = document.getElementById("add_test5")
+addtocart5 = document.getElementById("assortment_pink_white")
 
 addtocart5.addEventListener("click", () => {
-    cartObj.push("test5")})
+    cartObj.push("Pink and white flower assortment")})
 
 // pushtest = document.getElementById("pushtest")
 
