@@ -40,6 +40,45 @@ cartlink.addEventListener("click", () => {
 // pushtest.addEventListener("click", () => {
 //     console.log(cartObj)})
 
-function buyable5(){
-    console.log("clicked the dumbaass")
+// const params = new URLSearchParams();
+
+// params.append('category', 'shoes');
+// params.append('color', 'blue');
+// params.append('color', 'red'); // Appends another color parameter
+// params.set('sort', 'price'); // Sets the sort parameter (overwrites if it exists)
+// params.delete('category'); // Removes the 'category' parameter
+
+// console.log(params.toString());
+// Output: "color=blue&color=red&sort=price"
+
+// function addToCart(item,currentItems){
+//     currentItems.append(item);
+//     console.log(currentItems);
+//     return(currentItems);
+// }
+
+// Function to add items to the cart
+function addToCart(itemName) {
+    // 1. Get the existing cart from localStorage, or an empty array if it's new
+    let cart = JSON.parse(localStorage.getItem('myCart')) || [];
+
+    // 2. Add the new item
+    cart.push(itemName);
+
+    // 3. Save it back to localStorage
+    localStorage.setItem('myCart', JSON.stringify(cart));
+
+    alert(itemName + " added to cart!");
+}
+
+// Logic for the Cart Page (Run this only if we are on the cart page)
+if (document.getElementById('cart_pg1')) {
+    const displayArea = document.getElementById('cart_pg1');
+    const savedCart = JSON.parse(localStorage.getItem('myCart')) || [];
+
+    if (savedCart.length === 0) {
+        displayArea.innerHTML = "Your cart is empty.";
+    } else {
+        displayArea.innerHTML = "Items: <br>" + savedCart.join('<br>');
+    }
 }
