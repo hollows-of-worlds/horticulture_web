@@ -70,6 +70,7 @@ function addToCart(itemName) {
 
     alert(itemName + " added to cart!");
 }
+function clearCart():
 
 // Logic for the Cart Page (Run this only if we are on the cart page)
 if (document.getElementById('cart_pg1')) {
